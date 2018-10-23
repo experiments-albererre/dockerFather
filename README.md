@@ -10,6 +10,7 @@ This is a life example using this repo's Dockerfile
 sudo docker build -t errewebsite .
 docker run -it --rm -p 3000:80 --name erreWeb errewebsite
 ```
+Visit `localhost:3000` in your browser to see the website
 
 ----- 
 
