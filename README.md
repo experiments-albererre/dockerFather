@@ -33,6 +33,17 @@ NOTE 2: `-p 3000:80` refers to the port 3000 in my local machine, whereas port 8
 
 NOTE 3: `--name` this is optional, but useful. Provides a name to easily locate the docker container.
 
+----- 
+
+### INTERACT
+``` bash
+docker exec -it NAME bash
+```
+
+This command is to interact with the docker (from the inside), we are able to use the container's bash shell
+
+----- 
+
 ## Main difference between RUN and CMD commands:
 
 The RUN command just execute a command in terminal
