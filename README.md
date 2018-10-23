@@ -5,7 +5,7 @@ docker config to set website from git repository
 
 ## Commands:
 
-### Build
+### BUILD
 ``` bash
 docker build -t NAME .
 ```
@@ -22,7 +22,7 @@ This would generate a random name
 
 ----- 
 
-### Running
+### RUNNING
 ``` bash
 docker run -it --rm -p 3000:80 --name CUSTOMNAME NAME
 ```
