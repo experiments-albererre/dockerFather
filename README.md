@@ -3,6 +3,16 @@ docker config to set website from git repository
 
 ----- 
 
+## Quick Start example:
+This is a life example using this repo's Dockerfile
+
+``` bash
+sudo docker build -t errewebsite .
+docker run -it --rm -p 3000:80 --name erreWeb errewebsite
+```
+
+----- 
+
 ## Commands:
 
 ### BUILD
