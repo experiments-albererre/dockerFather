@@ -6,25 +6,26 @@ docker config to set website from git repository
 ## Commands:
 
 ### Build
-` 
+``` bash
 docker build -t NAME .
-`
+```
 
 NOTE: `-t` is to give a NAME to the container
 
 Alternatively, we could just use:
 
-` 
+``` bash
 docker build .
-` 
+```
+
 This would generate a random name
 
 ----- 
 
 ### Running
-`
+``` bash
 docker run -it --rm -p 3000:80 --name CUSTOMNAME NAME
-`
+```
 
 NOTE: `--rm` is to remover this container as soon as it dies, to save space in memory
 
