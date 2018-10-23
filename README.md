@@ -5,4 +5,4 @@ docker config to set website from git repository
 
 The RUN command just execute a command in terminal
 
-The CMD is the MAIN COMMAND of the docker container, if this command finishes, the docker dies. As the docker container only runs when its main project is alive! (IMPORTANT!)
+The CMD is the MAIN COMMAND of the docker container, if this command finishes, the docker dies. As the docker container only runs when its main command is alive! (IMPORTANT!)
